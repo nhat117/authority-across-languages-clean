@@ -1,0 +1,63 @@
+{
+  "source_repository": "https://github.com/nhat117/AdoptionAIHackathon",
+  "source_commit": "ae49c9b210324ac826150d0a381781a3e8b33b8c",
+  "purpose": "Curated offline analysis edition; full protocols, older experiments, failed requests and submission history remain in the source archive.",
+  "files": {
+    "data/wording/workers.jsonl": {
+      "source_path": "results/authority_wording_v2/workers.jsonl",
+      "source_sha256": "4140326afbded3bf138e93894cd772fa374c4aa59e0ba7ffefbcec884824a16c",
+      "sha256": "4140326afbded3bf138e93894cd772fa374c4aa59e0ba7ffefbcec884824a16c",
+      "bytes": 10956531,
+      "transformation": "byte-identical copy"
+    },
+    "data/neutral/inputs.jsonl": {
+      "source_path": "results/round3_neutral/inputs.jsonl",
+      "source_sha256": "19da72458edc7d1fce720aaa6a33534ee251fdb0ebb95235a69fcd4e20fbb7fb",
+      "sha256": "19da72458edc7d1fce720aaa6a33534ee251fdb0ebb95235a69fcd4e20fbb7fb",
+      "bytes": 253508,
+      "transformation": "byte-identical copy"
+    },
+    "data/neutral/workers.jsonl": {
+      "source_path": "results/round3_neutral/workers.jsonl",
+      "source_sha256": "dabc1b3e6f08c9a654b96754f44b02bcc83705a7e8488554d732f8e9a610bfa9",
+      "sha256": "dabc1b3e6f08c9a654b96754f44b02bcc83705a7e8488554d732f8e9a610bfa9",
+      "bytes": 577815,
+      "transformation": "byte-identical copy"
+    },
+    "data/judge/groups.jsonl": {
+      "source_path": "results/llm_judge_sample/aligned_prompts.jsonl",
+      "source_sha256": "e25d698272e85da41d571f6f0d736a6b704c072dc2c6d10f6a91b463a1f0545d",
+      "sha256": "e25d698272e85da41d571f6f0d736a6b704c072dc2c6d10f6a91b463a1f0545d",
+      "bytes": 472704,
+      "transformation": "byte-identical copy"
+    },
+    "data/judge/selection.json": {
+      "source_path": "results/llm_judge_sample/SAMPLE_SELECTION.json",
+      "source_sha256": "6285f2e36b42c242d098bcf6b8a265b5c067616ac3bda20eab70b6d0c86d0da0",
+      "sha256": "6285f2e36b42c242d098bcf6b8a265b5c067616ac3bda20eab70b6d0c86d0da0",
+      "bytes": 35842,
+      "transformation": "byte-identical copy"
+    },
+    "data/judge/judgments.jsonl": {
+      "source_path": "results/llm_judge_sample/judgments.part0001.jsonl",
+      "source_sha256": "9bd384f4ac4f68f525be6c10ce813a99cd903c50f819f3fa44723bb0872b689a",
+      "sha256": "9bd384f4ac4f68f525be6c10ce813a99cd903c50f819f3fa44723bb0872b689a",
+      "bytes": 2144317,
+      "transformation": "byte-identical copy"
+    },
+    "data/judge/raw_responses.jsonl": {
+      "source_path": "results/llm_judge_sample/raw_responses.part0001.jsonl",
+      "source_sha256": "8075f3177edbf9a1a74d9643234fcc4b78e12aeae3caf00c1f7acb1e9bfcfb5e",
+      "sha256": "8075f3177edbf9a1a74d9643234fcc4b78e12aeae3caf00c1f7acb1e9bfcfb5e",
+      "bytes": 4252729,
+      "transformation": "byte-identical copy"
+    },
+    "data/judge/frame.json": {
+      "source_path": "results/llm_judge/aligned_prompts.jsonl",
+      "source_sha256": "c56af990f6995470cc5fe3d4158b44761772e331c1faad379e72101066631e40",
+      "sha256": "6636b09640c232914ebdf226b15a6d61d05c1cc29fa344b9c756bee5ca58da30",
+      "bytes": 1643619,
+      "transformation": "All 1920 groups retained in order; prompts removed from selection-only frame, selected prompts retained separately in data/judge/groups.jsonl"
+    }
+  }
+}

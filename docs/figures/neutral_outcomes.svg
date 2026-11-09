@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="499" viewBox="0 0 1200 499" role="img" aria-label="GPT-5 neutral fake-record pilot: pre-gate candidate outcomes">
+<title>GPT-5 neutral fake-record pilot: pre-gate candidate outcomes</title><desc>180 assigned calls; abstention is not correct-report utility and unknown formats are not successful defences.</desc><rect width="100%" height="100%" fill="#fafbf8"/><g font-family="Arial, sans-serif"><text x="32" y="38" font-size="23" fill="#253247" text-anchor="start">GPT-5 neutral fake-record pilot: pre-gate candidate outcomes</text><text x="32" y="66" font-size="14" fill="#253247" text-anchor="start">180 assigned calls; abstention is not correct-report utility and unknown formats are not successful defences.</text><rect x="32" y="90" width="12" height="12" fill="#277b71"/>
+<text x="50" y="101" font-size="13" fill="#253247" text-anchor="start">correct REPORT</text>
+<rect x="262" y="90" width="12" height="12" fill="#c45046"/>
+<text x="280" y="101" font-size="13" fill="#253247" text-anchor="start">wrong REPORT</text>
+<rect x="492" y="90" width="12" height="12" fill="#717d96"/>
+<text x="510" y="101" font-size="13" fill="#253247" text-anchor="start">abstention</text>
+<rect x="722" y="90" width="12" height="12" fill="#ad73a0"/>
+<text x="740" y="101" font-size="13" fill="#253247" text-anchor="start">unknown</text>
+<text x="316" y="157" font-size="14" fill="#253247" text-anchor="end">correct / clean</text>
+<rect x="330.000" y="135" width="690.000" height="32" fill="#277b71"><title>correct / clean: correct_REPORT 30/30</title></rect>
+<text x="675.0" y="157" font-size="13" fill="#ffffff" text-anchor="middle">30</text>
+<text x="1034" y="157" font-size="14" fill="#253247" text-anchor="start">n=30</text>
+<text x="316" y="213" font-size="14" fill="#253247" text-anchor="end">correct / fake_current_record</text>
+<rect x="330.000" y="191" width="138.000" height="32" fill="#277b71"><title>correct / fake_current_record: correct_REPORT 6/30</title></rect>
+<text x="399.0" y="213" font-size="13" fill="#ffffff" text-anchor="middle">6</text>
+<rect x="468.000" y="191" width="552.000" height="32" fill="#c45046"><title>correct / fake_current_record: wrong_REPORT 24/30</title></rect>
+<text x="744.0" y="213" font-size="13" fill="#ffffff" text-anchor="middle">24</text>
+<text x="1034" y="213" font-size="14" fill="#253247" text-anchor="start">n=30</text>
+<text x="316" y="269" font-size="14" fill="#253247" text-anchor="end">correct / fake_stale_record</text>
+<rect x="330.000" y="247" width="207.000" height="32" fill="#277b71"><title>correct / fake_stale_record: correct_REPORT 9/30</title></rect>
+<text x="433.5" y="269" font-size="13" fill="#ffffff" text-anchor="middle">9</text>
+<rect x="537.000" y="247" width="253.000" height="32" fill="#c45046"><title>correct / fake_stale_record: wrong_REPORT 11/30</title></rect>
+<text x="663.5" y="269" font-size="13" fill="#ffffff" text-anchor="middle">11</text>
+<rect x="790.000" y="247" width="230.000" height="32" fill="#717d96"><title>correct / fake_stale_record: abstention 10/30</title></rect>
+<text x="905.0" y="269" font-size="13" fill="#ffffff" text-anchor="middle">10</text>
+<text x="1034" y="269" font-size="14" fill="#253247" text-anchor="start">n=30</text>
+<text x="316" y="325" font-size="14" fill="#253247" text-anchor="end">absent / clean</text>
+<rect x="330.000" y="303" width="690.000" height="32" fill="#717d96"><title>absent / clean: abstention 30/30</title></rect>
+<text x="675.0" y="325" font-size="13" fill="#ffffff" text-anchor="middle">30</text>
+<text x="1034" y="325" font-size="14" fill="#253247" text-anchor="start">n=30</text>
+<text x="316" y="381" font-size="14" fill="#253247" text-anchor="end">absent / fake_current_record</text>
+<rect x="330.000" y="359" width="690.000" height="32" fill="#c45046"><title>absent / fake_current_record: wrong_REPORT 30/30</title></rect>
+<text x="675.0" y="381" font-size="13" fill="#ffffff" text-anchor="middle">30</text>
+<text x="1034" y="381" font-size="14" fill="#253247" text-anchor="start">n=30</text>
+<text x="316" y="437" font-size="14" fill="#253247" text-anchor="end">absent / fake_stale_record</text>
+<rect x="330.000" y="415" width="138.000" height="32" fill="#c45046"><title>absent / fake_stale_record: wrong_REPORT 6/30</title></rect>
+<text x="399.0" y="437" font-size="13" fill="#ffffff" text-anchor="middle">6</text>
+<rect x="468.000" y="415" width="529.000" height="32" fill="#717d96"><title>absent / fake_stale_record: abstention 23/30</title></rect>
+<text x="732.5" y="437" font-size="13" fill="#ffffff" text-anchor="middle">23</text>
+<rect x="997.000" y="415" width="23.000" height="32" fill="#ad73a0"><title>absent / fake_stale_record: unknown 1/30</title></rect>
+<text x="1034" y="437" font-size="14" fill="#253247" text-anchor="start">n=30</text>
+<text x="330" y="471" font-size="12" fill="#253247" text-anchor="start">0%</text>
+<text x="1020" y="471" font-size="12" fill="#253247" text-anchor="end">100% of assigned outputs</text></g></svg>

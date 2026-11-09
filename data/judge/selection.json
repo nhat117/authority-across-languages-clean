@@ -1,0 +1,1365 @@
+{
+  "version": "braintrust-gpt5-stratified-sample-v1",
+  "seed": 2026110903,
+  "selection": "One uniform draw from each of 96 strata of size 20",
+  "stratum_fields": [
+    "cohort",
+    "authority",
+    "wording_variant",
+    "record_condition",
+    "attack"
+  ],
+  "population_groups": 1920,
+  "selected_groups": 96,
+  "sampling_fraction": 0.05,
+  "requested_judgments": 288,
+  "frame_sha256": "b784d761b14acd1e8ceddc8076bd50eb68dcd375dfa68d5575ae0f351415e7f1",
+  "prior_scores_or_worker_outcomes_used": false,
+  "strata": [
+    {
+      "stratum": [
+        "primary",
+        0,
+        "original",
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-bb664b27cdfd95b0a1da84fb",
+      "source_group_sha256": "69f21cc33ee52dd4409bd74b64ad199a7d84fb7b778e5e88765f6c472a25d271"
+    },
+    {
+      "stratum": [
+        "primary",
+        0,
+        "original",
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-59688e76f5285dfc35efd354",
+      "source_group_sha256": "889f99baf0e4688b602c3d9bc752d93b5aa8ee9061296181ab885dd455cf9792"
+    },
+    {
+      "stratum": [
+        "primary",
+        0,
+        "original",
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-dfdc610e1dc8593286e6bec8",
+      "source_group_sha256": "acb6c9367de4e7980b0eba65487b1e7a1849f1d8a009e5a61d375c258494dbbc"
+    },
+    {
+      "stratum": [
+        "primary",
+        0,
+        "original",
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-7f2e6315e313b1a61e030891",
+      "source_group_sha256": "f43e8ceb90eb58cb53e27db6a9baf1b21abc1d01cdfd540073105344e5dd37ff"
+    },
+    {
+      "stratum": [
+        "primary",
+        0,
+        "original",
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-1b5eaa135aee524e926b48f3",
+      "source_group_sha256": "d264effdfd32e5f02245bdc9ad895b4445c517af8598deb3cc6b4feea6ab57bb"
+    },
+    {
+      "stratum": [
+        "primary",
+        0,
+        "original",
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-06553c049e7cae245e9ec18f",
+      "source_group_sha256": "859f967253edcbb97da3abf04fa8d280f4a327607c218c866c1064e56db4ebc0"
+    },
+    {
+      "stratum": [
+        "primary",
+        1,
+        "original",
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-7b74fe0a823b11919812242f",
+      "source_group_sha256": "42cec7b00b53b897d2865026f385202519cecad7db752402ed1ad0b07d7eddc4"
+    },
+    {
+      "stratum": [
+        "primary",
+        1,
+        "original",
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-00f5ecdb6c8fd747959da951",
+      "source_group_sha256": "cd37784c05b25847c0d9af87153b87a227d384d7eeff30a70166f7cb25c01353"
+    },
+    {
+      "stratum": [
+        "primary",
+        1,
+        "original",
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-6b58c3bcd9c1a81a053535b0",
+      "source_group_sha256": "509eecfddfaf580f6c55489c48603244638b93d1c22ae5cb0256a207c53ee341"
+    },
+    {
+      "stratum": [
+        "primary",
+        1,
+        "original",
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-bb2a41bce7705dfa52ceec48",
+      "source_group_sha256": "ad9cd8058829258ab3c7d95e7c9cbe5f1726eb3faf31277581741d9c1e43b52e"
+    },
+    {
+      "stratum": [
+        "primary",
+        1,
+        "original",
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f7f793bdeb9b49af7ec7111c",
+      "source_group_sha256": "c44e64a853c7a56d2ecaa60c9213f20e6f5f504f85296d382afa957cf775638b"
+    },
+    {
+      "stratum": [
+        "primary",
+        1,
+        "original",
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-3f7661d4dd0220b03488155a",
+      "source_group_sha256": "bfd6c889f87be960dfaed1ec82281b714476ff01e6ce52badb838f49e06a2bb7"
+    },
+    {
+      "stratum": [
+        "primary",
+        2,
+        "original",
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-38b4ed267b7f344a5fb3bfb9",
+      "source_group_sha256": "0cfe85124a219b0d8fb6bb0d1c4dc15e854ef32c5b32b58bdadb60adce06cb1f"
+    },
+    {
+      "stratum": [
+        "primary",
+        2,
+        "original",
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-47bff878025274ee18364491",
+      "source_group_sha256": "958bab80c5cddb444d64276c36683110d97c9c835ce851a51140296564acda8c"
+    },
+    {
+      "stratum": [
+        "primary",
+        2,
+        "original",
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-6546f29bc7814b4f30fa9677",
+      "source_group_sha256": "58e1f02d0ad4730419ede65222a18fe8257f8ec272933792c3751d4f3a84a380"
+    },
+    {
+      "stratum": [
+        "primary",
+        2,
+        "original",
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-98fac70fd755fd689d7c0d91",
+      "source_group_sha256": "eb2f466d146668caecad3768b396470ec875b94ffd905b32a102d073f32ad863"
+    },
+    {
+      "stratum": [
+        "primary",
+        2,
+        "original",
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-5ff671d2af0f73faccefd32b",
+      "source_group_sha256": "9e493765f7dcb9a01f3ffd04cb36fdb985c69d907b8dce0243b666ca0778f713"
+    },
+    {
+      "stratum": [
+        "primary",
+        2,
+        "original",
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-2546f3569f6b66125d3ef565",
+      "source_group_sha256": "08aa250d91b43089aa426ce1ae47362553575c5d8066034ef4f2a887d0e718b5"
+    },
+    {
+      "stratum": [
+        "primary",
+        3,
+        "original",
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-9dae59b192127b4141d5989c",
+      "source_group_sha256": "3b2f704a824717a79376005926c8169c95085e33437920bd21bbe60ed8e55dd2"
+    },
+    {
+      "stratum": [
+        "primary",
+        3,
+        "original",
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-11b66467df383ec96e2a9c61",
+      "source_group_sha256": "d25ed87f33f7a6bdcbec1d4ed2d1beec6dc65b59b7333f94ecb3fb96d58028c6"
+    },
+    {
+      "stratum": [
+        "primary",
+        3,
+        "original",
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-53b60cc4c7cf434b3b7d0713",
+      "source_group_sha256": "233cbadf44408e596169e1bbd5082b806fb92820fae0831d6ac73e4f23c677c2"
+    },
+    {
+      "stratum": [
+        "primary",
+        3,
+        "original",
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-d5447049712f8c36cdf05a30",
+      "source_group_sha256": "f152934f50cd545f1e8c696179032e518d1aab3b7346d9b9db285fb11d1d2f89"
+    },
+    {
+      "stratum": [
+        "primary",
+        3,
+        "original",
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-455575a33ef3488d8806b7fc",
+      "source_group_sha256": "bae328b368056b85f5b0696c09844974ccc88165d41c784b7baa967f694b6f45"
+    },
+    {
+      "stratum": [
+        "primary",
+        3,
+        "original",
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f695a5f6c19dee9d759404bd",
+      "source_group_sha256": "c69974ff8d4f7c10897bfae3d509c05e7200acabc84f028d1621d402bd887e46"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        0,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-1fbe3a019baa8c26683a5102",
+      "source_group_sha256": "6d5b419852729e84a2a820abb65cce66b6cac1eadae6496631687d82b6f14582"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        0,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-1b3e1f841b4f204a022b1416",
+      "source_group_sha256": "aa0a42eea19c3d3d6409ef8893e9d1921684a6140df44cb27015b4ba0640bc6c"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        0,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-e4cbd39963ac01b7ad6d1626",
+      "source_group_sha256": "af9e928a539bf481d70b1726ce1c9b1ad75efd8baa08d38da5017475d88ba5f1"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        0,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-dbb29d3cd9fd1c07d8e0b8ba",
+      "source_group_sha256": "ba644e0d3fada752397a2509ab421603e13367757e1d5dbcaba0c9f2b09294a2"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        0,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-e3210c3137e468ed969e4cd9",
+      "source_group_sha256": "324cecde97c851aa1fda1ebb683f59cb8ff7838de1b1f20224f759d59c03c65e"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        0,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f751f6ecddef1222d9aa4241",
+      "source_group_sha256": "4ad198f99d081031eac7800014b3447d39422a9cbfbbd7bcaccda9df5a333dfc"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        1,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-d24189c6c556ff9adb26940f",
+      "source_group_sha256": "4962fe94c25a42b337482b7212881cb8677c6a3d097950256c6be6bd75fe930c"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        1,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-a00c6959e25ccb1913877010",
+      "source_group_sha256": "5ca6760e99893afc70aca4e5b6862bcd48aa5b861262c0161bd384bea3fef8cc"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        1,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-4ad6533edbfa32e6ce7f2bac",
+      "source_group_sha256": "aa63e04d301d8cb4032fd5f8e6a8b8e67170ab2d7aeb0804c59b786ae75d1596"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        1,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-bc0ec030f50a885078cd08cf",
+      "source_group_sha256": "8e7b661c36a3a2d465f21392fd689f5ef8f8e93937649aae771aae8015a4fe0f"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        1,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-894302756887b25a50ef7d32",
+      "source_group_sha256": "b8ffee719ba1bd7c652dddba6b552ae54d331433be99aca7890d4eee5966fe38"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        1,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-c48aa8bb13b3219f2f78a639",
+      "source_group_sha256": "9e4ca07c5ab4671d76dac52846462e9754f115a23b7c731a75983c443317848b"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        2,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-579f1b0f75584d1205877e21",
+      "source_group_sha256": "73e8835b55348c656e0b745b71b3b6f2b99c906c39ef0cb60fcda5facfc3eea2"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        2,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-ca34dd1c6c10d35a0a8d5152",
+      "source_group_sha256": "ef3f8ac79221af835689a056df5db091c56ccd1abbbd8c71c1e2171412060d8e"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        2,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-4ee6c5ba74625f46bdef3af0",
+      "source_group_sha256": "4ef67ac3313394490d9eb7a81fd9425440b98a0cac6e74046eb87565d48310fd"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        2,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-2cd9808bc98713ec817580bd",
+      "source_group_sha256": "97d6a78882b6cc0bde30a9f72dca5cf65d99c0cf1657ba5ecec29052f81039f4"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        2,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-574d5e58062b551819d25c4a",
+      "source_group_sha256": "490eb61149deb938d2bdec5395c88f0cb2bf5a06916883d813ffcac2a8aba03d"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        0,
+        2,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-7733bae56ad4095ab73e4a96",
+      "source_group_sha256": "4d7c6770e9d65b8abd316f6c449c5a3f71cf5ff7cb85ecaaa3d26e2dbbe7d60b"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        0,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-7681d34664309c339ecc81f1",
+      "source_group_sha256": "a235f8ed1429a337ca0fd13742fe02e3d6796c8660a8d6c3b9833e7e78c3e939"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        0,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-00e7ff22eebdfe1bb594c015",
+      "source_group_sha256": "d8a6607ef74d5471997db1a33086cad992d106ba1a29e300deeb3f8a7f2397ab"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        0,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-5cd1725d174ee0dda18cc89c",
+      "source_group_sha256": "e4b76a0897d1f6d6a9ed56c0a8f635d143575deade8e8177f3318012b7156a24"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        0,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-74cd607c6786372e9309e0fd",
+      "source_group_sha256": "da9a2a1ac619a8d3c88936abddfd01dddfb99fea8838d9dbc7c21d7761ffe1cc"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        0,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-98270135a913627b0e833220",
+      "source_group_sha256": "da476f91e3be6695cb79167577b3fdfd5d4b2807ec2c6081add9af37563a16db"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        0,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-314735869cd87abd4dd55de9",
+      "source_group_sha256": "159bdd6a3156ee5a7e35e05d1ec0dfac27f6365789ba636ae95eaac8c6cea14c"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        1,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-4efb22f10478c21c28371f2d",
+      "source_group_sha256": "6c6d2fc6a9db589bf08b6fcdc4c11f7d2b9c887a46f94943c8859191371dad0e"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        1,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-fdfd2aec023d1fe4193650b4",
+      "source_group_sha256": "1967f6ebcb17533571a50958bad22b3192a5b340d3ae2852d5d25110b1a42393"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        1,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-6596eab6a1b2d9e667bd3aba",
+      "source_group_sha256": "f29110af67a3407d0159ba11bec38c77c1618945ecb9fa895ceec3a454cc50b9"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        1,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-65b1be9653e241700f01491a",
+      "source_group_sha256": "b4cb0d4fea43a41af7d78b032b7c32b8ba3e5b022a1382ddc03737eec4a04478"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        1,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-39f4c9e9b3f9020b7846851e",
+      "source_group_sha256": "d9fcf8776bfea359987c51148f3dbfb5500d0b964988351a94b314a42e2dacd2"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        1,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-a919a5ac81e0b980fc4e733f",
+      "source_group_sha256": "70725e9d72f36b2c8c5e38f8dea0549be2f3f4a4e2815e8d4805b83d0e635e61"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        2,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-c79f58e4edd534588a716dc7",
+      "source_group_sha256": "b4a9c520b3fdac57b5a64b6b9902f200dafb9ea63c382c9c481ab3e5bce9af5a"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        2,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f88c64c66d83a0222c6fbc19",
+      "source_group_sha256": "398c4acca1e4f56f512b45e538d6049820ad082f4f8fdeae9d059ded9a15b051"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        2,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-ed60d76fda667b4d606353ca",
+      "source_group_sha256": "2cdfc2120efe04ce2f68002a0f0f968f980cc044f739c1894f105e680c8572e6"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        2,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f4a36160aa57eef903ac30fb",
+      "source_group_sha256": "7afa6c2d31b2c8c292558b8bfc07001f65ce4955c6d9a5aedc9c2370302ffbc0"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        2,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-bc76888aa3cf1a8129c9b311",
+      "source_group_sha256": "595392ce3fda2a49dfeca8d9e3a0b32c214d66ab0a29fbee02ae92208e2391fa"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        1,
+        2,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-918baaf2ddbe1ca40c37472a",
+      "source_group_sha256": "b66ac852a61d5b60b34024a5a446fe8f3f4eab713836dd27a0289fd57b817092"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        0,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-321a501095c4251c5d75146e",
+      "source_group_sha256": "e2ed2ba588a485b30764cba921af64ef8d661e5a757f2dad1ab2eca5309d0d08"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        0,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-3319cf3f801bd0c4d9f5e53f",
+      "source_group_sha256": "c58bd4784789e32a3c52f5592e9a78ca0c522b92dd4d38744e4423323c319f3c"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        0,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-368428c7531bcb78e51a7ee0",
+      "source_group_sha256": "58b4f2040979f951777e8a1baae61efe567e9ad87ace26aa6c1eacad69d4ef8d"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        0,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-62694c9784c49cfd2fbd84bd",
+      "source_group_sha256": "ad60c7f77a608ecc6c8781b659631069fae0405edef888edcb167dbd2d2e13de"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        0,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-525ce4db518518e8003f7b9b",
+      "source_group_sha256": "dd9594deda20a468bdb84dc82b8116a83c5075dd35a46d9a387828f7eb1b08f7"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        0,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-957c980c3099b043527685fc",
+      "source_group_sha256": "ce4ca4006a622cd933c47afffde0db48c47f9a64426da7760e0f063365dc1bba"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        1,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-90c458618245bb40babdd64e",
+      "source_group_sha256": "82a19c488f121267eea2346e3c4840b8d81dad3458c31c1ee166e22c196613f2"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        1,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-bb0f647aee80c5761d46080e",
+      "source_group_sha256": "fdeaf58553caa43619c437f2ec92efc553728f1a876319aabf977b105e74d63c"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        1,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-9a65a53b72c65510fe92b001",
+      "source_group_sha256": "0731ec007547ece1cf6c4291d7e9604d3268a5955251a33951cb7fa1b233c3f4"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        1,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-5cffc31db2b9072e47c9bb68",
+      "source_group_sha256": "bc657e45b5b27819000153908859b26b6aea54fcd8c16b33c14e1f3d4d5f35f4"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        1,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-00497292444e335903bbd5d2",
+      "source_group_sha256": "dc3935bbdf7e16e3bdcdbd36f75ec3c7bac4e2abbc4a7a5a63d15a688a50f23d"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        1,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f34a27b2b3ce27998d149ca2",
+      "source_group_sha256": "03093b6256d9fc03f5ea77257075dd294098a4eec117ae4767663532036e501e"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        2,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-2a9fc4044bbf242f96dec694",
+      "source_group_sha256": "a816550e75df5b71db2dcfc8751d6da0eb9ecb8f05c92bde6aecf619dfd5f64d"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        2,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f2285c6894859b3f79fe402c",
+      "source_group_sha256": "8decb181753a492501da72094c294b2e6d322981d406f0e0f204b5d718bb1eef"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        2,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-135bfd348d0207c4d7dad449",
+      "source_group_sha256": "24f9caeea3263523283d1d4b1627190c04bb9195f218e8d0ce00071d276593c4"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        2,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-956a186d21e51baadb59e607",
+      "source_group_sha256": "35410a29a72ec97be7bda57e4b968fbf566600668bebf888fa21857a9c4dac58"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        2,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-5a3eb1306b0681faea57910f",
+      "source_group_sha256": "6a181977ee41624a45eb12d8eec256159efc212433b8ccc310f012569cc8e81e"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        2,
+        2,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-f562e635d00e9ed1e6bf0129",
+      "source_group_sha256": "0a3d853d11fe829b94c9ef341d3bda5fd661eadd6d11ee07dce9c76059dd26f9"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        0,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-6fb1aca00fee9f5af2a33bfb",
+      "source_group_sha256": "c037f56e8bb89d029e2fdf819b5a0f88faa6c36f8a2e468fae5da67f539f4769"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        0,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-6f72172899e2f6235ce95fff",
+      "source_group_sha256": "a57338bb6761659cd7407d64b002ee97634dbfe7be93df468b415585a511c139"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        0,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-e4a8d8ac45bfc4ebeafa51ef",
+      "source_group_sha256": "232f89a41eb0558f4dc3519c9b14416b436810168e9436a3c40b9b63969f8cce"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        0,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-2058efbbe3605b431b368eeb",
+      "source_group_sha256": "d6bb6b9e648cbfd94f04bc105a8ec357e077d6130e465862cb6a732775ebe030"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        0,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-6371d13c283417e4905166c3",
+      "source_group_sha256": "2ac04d9fb3b96f832405eb33ab34e31605363c452241717231f4eb6c110f8b90"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        0,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-b19cd4f4449fdb603e204044",
+      "source_group_sha256": "d6a77d18745c2aa96fba362af1de90f162250d125db93e10e8e45dbe9d71f8fa"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        1,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-03684128977e5e72d534e04f",
+      "source_group_sha256": "a54dac0cc8e385f5c571d98302a7387ce08c6d6f9ecd16e2d8f8cdbe1ff4af39"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        1,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-12605021f51fd89cf2232539",
+      "source_group_sha256": "ec49167d415ca6c24f6163299c6116e8a9d3856686c0bda203ab93677252282d"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        1,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-74542b464c7dc08aea394f5d",
+      "source_group_sha256": "ff68b45d0872b1ee0b4af27ecab29d55c8a70383959b0b256d20d561cc19d3f5"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        1,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-759fd228b358daf098b7d801",
+      "source_group_sha256": "72447300ef2a5ad966124d1c1d7dc6653717624b5e1892d3502c507166bd79a1"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        1,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-408ff38bd49cb01a8f4f0c2c",
+      "source_group_sha256": "6d397c76d26a4c91626480f3cdd96aeba0889f47218b92502d72d84ef5ce5a3f"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        1,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-2914337efa4396d9bfb6587c",
+      "source_group_sha256": "b757a07295bc9cc7b4c472cbe3218efc8bc1d30884b6e0dbe5b6b49e57dc3bb1"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        2,
+        "absent",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-6d5e174bd4a38ac51268e65f",
+      "source_group_sha256": "7db959e2f3063d6af22ad63bbd71826feba8cdf6aa9ebb497ad13fcd8c19b54d"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        2,
+        "absent",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-3d1b2f0afced117ff9a8caab",
+      "source_group_sha256": "2b10514488b106a36c50b3e28c506f4b20517de45e9ca1898b6e96e61b73a54f"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        2,
+        "correct",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-9101a047f8f29c84061235ec",
+      "source_group_sha256": "30da8a3a6d089269e9a6385da248d10e948f5ac0b16a31bf20dd48890e4ba7d8"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        2,
+        "correct",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-2771c6c83a92dd7a65c4aa85",
+      "source_group_sha256": "8d86aab51f5a61a82bd441dcddae692c38aa231c922099b684b06537f1abb9ef"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        2,
+        "stale",
+        false
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-ec23aaf373029b80e2b9bf0b",
+      "source_group_sha256": "d55105d80f6b3693c73258038e3f530d1565fa0113d2f7c05a2cc91a80b7bda9"
+    },
+    {
+      "stratum": [
+        "wording_followup",
+        3,
+        2,
+        "stale",
+        true
+      ],
+      "population_n": 20,
+      "sample_n": 1,
+      "inclusion_probability": 0.05,
+      "selected_group_id": "aligned-e3332638006b840ec9646788",
+      "source_group_sha256": "4af07730da5e1a365456251f884e1a0ec7e3c6b0caf88156c530216df6210c38"
+    }
+  ],
+  "limitations": "Descriptive sampled LLM validation only. One group per stratum prevents design-based within-stratum variance estimation; repeated tasks/one judge model may correlate. Unsampled groups are not validated."
+}
